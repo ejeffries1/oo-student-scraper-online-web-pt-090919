@@ -6,7 +6,7 @@ class Student
 
   def initialize(student_hash)
    student_hash.each do |key, value|
-     student_hash[:key][name] = value
+     student_hash[:key][:name] = value
    end
   end
 
