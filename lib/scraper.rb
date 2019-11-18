@@ -5,7 +5,7 @@
 require_relative './student.rb'
 
 class Scraper
-  #attr_accessor :name, :location, :profile_url, :twitter, :linkedin, :github, :youtube
+  attr_accessor :name, :location, :profile_url, :twitter, :linkedin, :github, :youtube
 
   def self.scrape_index_page(index_url)
     student_index = []
