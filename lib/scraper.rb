@@ -46,7 +46,7 @@ class Scraper
         #student_hash[:profile_quote] = doc.css(".vitals-container .vitals-text-container .profile_quote").text
       end
       student_hash[:bio] = doc.css(".bio-block.details-block .bio-content.content-holder .description-holder p").text
-      student_hash[:profile_quote] = doc.css(".vitals-text-container .vitals-container .profile_quote").text
+      student_hash[:profile_quote] = doc.css(".vitals-container .vitals-text-container .profile-quote").text
       #binding.pry
       end
       student_hash
